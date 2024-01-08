@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bbB/cv9DY8FFhq+iFRO6eIJ5ZVjrb1MlslW5WHc17PaKV0bhX6AOxkCSPGg+u0SJUnqpxeFG6dfIdR3wcLFuHQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Learning\\leetcode-exercises\\21_MergeTwoSortedListss\\21_MergeTwoSortedListss.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcellus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Marcellus\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Marcellus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\Marcellus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
