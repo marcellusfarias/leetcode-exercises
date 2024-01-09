@@ -3,7 +3,7 @@ using StructuresLibrary;
 
 namespace UnitTests;
 
-public partial class ExerciseTests
+public class ExerciseTests_23_MergeKSortedList
 {
     public static IEnumerable<object?[]> MergeKSortedLists()
     {

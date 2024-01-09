@@ -3,7 +3,7 @@ using StructuresLibrary;
 
 namespace UnitTests;
 
-public partial class ExerciseTests
+public class ExerciseTests_21_MergeTwoLists
 {
     public static IEnumerable<object?[]> MergeTwoLists()
     {
