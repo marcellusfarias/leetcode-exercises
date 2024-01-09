@@ -6,18 +6,16 @@ public partial class Exercise
 {
     public static ListNode? MergeKLists(ListNode?[] lists)
     {
-        if (lists is null)
-            return null;
-
-        var list = lists.ToList();
-        if (list.All(x => x is null))
+        if (lists is null || lists.Length == 0)
             return null;
 
         // Easy solution
         // Add all elements to a list, sort it and create a new ListNode
+        // Total time: 92ms (beats 78%)
+        // Total memory: 47.30MB (beats 7%)
         var aggregatedList = new List<int>();
 
-        foreach (ListNode? node in list)
+        foreach (ListNode? node in lists)
         {
             if (node is null)
                 continue;
@@ -31,8 +29,6 @@ public partial class Exercise
             } while (currentNode is not null);
         }
 
-        aggregatedList = aggregatedList.Order().ToList();
-
-        return ListNodeHelper.CreateFromArray(aggregatedList.ToArray());
+        return ListNodeHelper.CreateFromArray(aggregatedList.Order().ToArray());
     }
 }
