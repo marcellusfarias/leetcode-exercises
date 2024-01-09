@@ -6,7 +6,7 @@ Console.WriteLine("Hello, World!");
 string digits = "";
 
 //code
-if(string.IsNullOrEmpty(digits))
+if (string.IsNullOrEmpty(digits))
     return Array.Empty<string>();
 
 var values = new Dictionary<string, string>();
@@ -42,7 +42,7 @@ void DoCombinations(string current, LinkedListNode<string> splittedAlpha, List<s
     foreach (var value in values)
     {
         string currentString = string.Concat(current, value);
-        if(splittedAlpha.Next == null)
+        if (splittedAlpha.Next == null)
             combinations.Add(currentString);
         else
             DoCombinations(currentString, splittedAlpha.Next, combinations);
